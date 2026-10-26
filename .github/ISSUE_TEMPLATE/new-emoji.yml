@@ -1,0 +1,31 @@
+name: Request an avatar emoji
+description: Ask for an emoji to be added to the profile picture options.
+title: "[Emoji] "
+labels: ["data-request", "emoji"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Avatar entries must be exactly one emoji (no letters, digits or two emoji in one entry).
+  - type: input
+    id: emoji
+    attributes:
+      label: Emoji
+      description: Paste a single emoji.
+      placeholder: "🦊"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Why this emoji? If it should sit next to similar ones in the grid, say so.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the emoji isn't already requested or listed.
+          required: true
+        - label: The emoji is family-friendly.
+          required: true

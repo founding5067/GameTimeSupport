@@ -1,0 +1,48 @@
+name: Request a game
+description: Ask for a game to be added to the GameTime game list.
+title: "[Game] "
+labels: ["data-request", "game"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a game. Please check that it isn't already in [`gametime.json`](../blob/main/gametime.json) first.
+  - type: input
+    id: name
+    attributes:
+      label: Game name
+      description: The official title, spelled and capitalised as the publisher writes it.
+      placeholder: "Deep Rock Galactic"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Store or official page
+      description: Optional, but it helps confirm the exact title.
+      placeholder: "https://"
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Platforms
+      description: Where can people play it?
+      options:
+        - label: PC
+        - label: PlayStation
+        - label: Xbox
+        - label: Switch
+        - label: Mobile
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else we should know, such as whether it's multiplayer.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the game isn't already requested or listed.
+          required: true
+        - label: The game is suitable for a family-friendly app listing.
+          required: true

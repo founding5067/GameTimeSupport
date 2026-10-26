@@ -1,0 +1,38 @@
+name: Request another data change
+description: Tags, platforms, blocked numbers, or a fix/removal of an existing entry.
+title: "[Data] "
+labels: ["data-request"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: What would you like to change?
+      options:
+        - Session tag
+        - Platform
+        - Blocked number
+        - Fix or remove an existing entry
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Requested change
+      description: Be specific, such as the exact entry to add, rename or remove.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why is this change needed?
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this isn't already requested.
+          required: true
+        - label: The request is family-friendly.
+          required: true

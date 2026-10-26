@@ -67,6 +67,10 @@ Each entry must be exactly one emoji. Letters, digits and two emoji in one entry
 - Bump `version`.
 - Check the file still parses: `python3 -m json.tool gametime.json > /dev/null`
 
+## Requesting changes
+
+Open an [issue](../../issues/new/choose) and pick a form to request a new game, avatar emoji, username prefix or suffix, or any other change to the data.
+
 `.github/CODEOWNERS` makes @founding5067 the owner of every file, so changes need their review.
 
 ## Disclaimer
