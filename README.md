@@ -1,11 +1,11 @@
-# GameTimeJSON
+# GameTimeSupport
 
 The data file the GameTime app fetches for its game list, username words and avatar emoji. There is no code in this repo, only `gametime.json`.
 
 Raw file:
 
 ```
-https://raw.githubusercontent.com/founding5067/GameTimeJSON/main/gametime.json
+https://raw.githubusercontent.com/founding5067/GameTimeSupport/main/gametime.json
 ```
 
 The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md).
@@ -66,6 +66,10 @@ Each entry must be exactly one emoji. Letters, digits and two emoji in one entry
 - Keep entries family-friendly, since users see them.
 - Bump `version`.
 - Check the file still parses: `python3 -m json.tool gametime.json > /dev/null`
+
+## Requesting changes
+
+Open an [issue](../../issues/new/choose) and pick a form to request a new game, avatar emoji, username prefix or suffix, or any other change to the data.
 
 `.github/CODEOWNERS` makes @founding5067 the owner of every file, so changes need their review.
 
