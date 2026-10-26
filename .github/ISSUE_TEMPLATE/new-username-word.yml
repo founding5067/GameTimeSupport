@@ -1,0 +1,46 @@
+name: Request a username prefix or suffix
+description: Ask for a new word to be used in generated display names.
+title: "[Username] "
+labels: ["data-request", "username"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Display names are a prefix plus a suffix plus an optional number, like `BraveFox42`.
+        Words must be letters only (no spaces, digits or symbols) and at most 13 characters.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Prefix (first word, e.g. Brave)
+        - Suffix (second word, e.g. Fox)
+    validations:
+      required: true
+  - type: input
+    id: word
+    attributes:
+      label: Word
+      placeholder: "Brave"
+    validations:
+      required: true
+  - type: input
+    id: emoji
+    attributes:
+      label: Suggested emoji (suffixes only)
+      description: Used by the Shuffle button. It must also be in the avatar emoji list, so mention if it needs to be added.
+      placeholder: "🦊"
+  - type: input
+    id: example
+    attributes:
+      label: Example name
+      placeholder: "BraveFox42"
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the word isn't already requested or listed.
+          required: true
+        - label: The word is family-friendly.
+          required: true
