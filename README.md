@@ -1,11 +1,11 @@
-# GameTimeJSON
+# GameTimeSupport
 
 The data file the GameTime app fetches for its game list, username words and avatar emoji. There is no code in this repo, only `gametime.json`.
 
 Raw file:
 
 ```
-https://raw.githubusercontent.com/founding5067/GameTimeJSON/main/gametime.json
+https://raw.githubusercontent.com/founding5067/GameTimeSupport/main/gametime.json
 ```
 
 The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md).
