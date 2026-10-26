@@ -43,6 +43,10 @@ Anyone with your invite link can become your friend and see your profile and ses
 
 GameTime Pro and the Supporter Pack are sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. The Supporter Pack is a one-time thank-you that adds a heart badge to your profile. It doesn't include Pro features. Refunds are handled by Apple.
 
+## Game names
+
+GameTime isn't affiliated with, endorsed by, or sponsored by any game, publisher, or platform mentioned in the app. Game names are trademarks of their owners and are only used to say what you're playing.
+
 ## No warranty
 
 GameTime is provided as is. I do my best, but sessions, invites and notifications depend on iCloud and your device, and they may be late or not arrive. I'm not responsible for missed games, lost data, or what other people post. To the extent the law allows, my liability is limited to the amount you paid for the app.
