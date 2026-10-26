@@ -9,7 +9,7 @@ These are the rules for using GameTime. By using the app you agree to them. They
 - Be decent to the people you play with.
 - No objectionable content and no abusive behavior. There is no tolerance for either.
 - You can report or block anyone, and I review every report.
-- If you break these rules, I can remove what you posted and cut off your access.
+- You only interact with friends. If someone behaves badly, remove or block them.
 
 ## Using GameTime
 
@@ -31,7 +31,9 @@ Don't create sessions or send invites to harass or target someone. Don't try to 
 
 Every profile and session has a Report option. Pick a reason, add a note if you like, and send it. The person you report isn't told it was you. You can also block anyone from their profile or from Settings > Blocked. Blocked people can't send you invites or see your sessions.
 
-I review reports within 24 hours. If something breaks these terms, I may remove it, warn the person, or end their access to GameTime. I don't have to tell anyone why.
+I review reports within 24 hours. What you post is saved in your own iCloud, so I can't edit or delete other people's content. Blocking is what ends contact.
+
+GameTime doesn't let you interact with people who aren't your friends. They can't see your sessions or profile, and they can't add you to anything. So the best way to deal with poor behavior is to stop being friends: remove them from their profile, or block them so they can't come back through your invite link.
 
 ## Friends and invite links
 
@@ -47,7 +49,7 @@ GameTime is provided as is. I do my best, but sessions, invites and notification
 
 ## Ending your use
 
-You can stop any time. Settings > Delete my data erases your profile, sessions, friends and history. Deleting the app alone doesn't delete your iCloud data. I may end access for anyone who breaks these terms.
+You can stop any time. Settings > Delete my data erases your profile, sessions, friends and history. Deleting the app alone doesn't delete your iCloud data.
 
 ## Changes
 
