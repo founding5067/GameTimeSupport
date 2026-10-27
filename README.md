@@ -8,7 +8,7 @@ Raw file:
 https://raw.githubusercontent.com/founding5067/GameTimeSupport/main/gametime.json
 ```
 
-The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md).
+The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TERMS.md](TERMS.md), and help and contact info is in [SUPPORT.md](SUPPORT.md).
 
 ## At a glance
 

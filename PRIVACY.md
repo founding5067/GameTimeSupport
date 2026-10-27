@@ -2,7 +2,7 @@
 
 Last updated: October 26, 2026
 
-GameTime lets you post when you're playing a game and see when your friends are. This page explains what the app keeps, where it keeps it, and who can see it.
+GameTime lets you post when you're playing a game and see when your friends are. This page explains what the app keeps, where it keeps it, and who can see it. It covers the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
 ## The short version
 
@@ -81,4 +81,4 @@ If this policy changes, the date at the top changes with it, and the history is 
 
 ## Contact
 
-Questions, or a request to remove a report: dev@colebraswell.com
+Questions, or a request to remove a report: coledev67@gmail.com
