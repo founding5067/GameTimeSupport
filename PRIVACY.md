@@ -81,4 +81,4 @@ If this policy changes, the date at the top changes with it, and the history is 
 
 ## Contact
 
-Questions, or a request to remove a report: dev@colebraswell.com
+Questions, or a request to remove a report: coledev67@gmail.com
