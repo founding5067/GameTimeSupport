@@ -2,7 +2,7 @@
 
 Last updated: October 26, 2026
 
-These are the rules for using GameTime. By using the app you agree to them. They sit alongside the [Privacy Policy](PRIVACY.md).
+These are the rules for using GameTime. By using the app you agree to them. They sit alongside the [Privacy Policy](PRIVACY.md). They cover the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
 ## The short version
 
