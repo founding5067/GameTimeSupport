@@ -1,6 +1,6 @@
 # GameTime Terms of Use
 
-Last updated: October 26, 2026
+Last updated: October 29, 2026
 
 These are the rules for using GameTime. By using the app you agree to them. They sit alongside the [Privacy Policy](PRIVACY.md). They cover the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
@@ -41,7 +41,15 @@ Anyone with your invite link can become your friend and see your profile and ses
 
 ## Purchases
 
-GameTime Pro and the Supporter Pack are sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. The Supporter Pack is a one-time thank-you that adds a heart badge to your profile. It doesn't include Pro features. Refunds are handled by Apple.
+GameTime Pro and the Supporter Pack are sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. The Supporter Pack is a one-time purchase of $4.99 (US price) that adds a heart badge to your profile as a thank-you. It doesn't renew. It doesn't include Pro features. Refunds are handled by Apple.
+
+## GameTime Pro subscription
+
+- Pro is an auto-renewing subscription, billed monthly at $2.99 or yearly at $19.99 (US prices). Prices in other countries can differ, and the price for your country is shown in the app before you buy.
+- Payment is charged to your Apple Account when you confirm the purchase.
+- Your subscription renews automatically unless you turn off auto-renew at least 24 hours before the current period ends. Your Apple Account is charged for the next period within the 24 hours before the current one ends.
+- To cancel or manage it, go to Settings > [your name] > Subscriptions on your iPhone, or open your account settings in the App Store. Cancelling stops future renewals, and you keep Pro until the end of the period you've paid for.
+- If an offer includes a free trial, any unused part of the trial ends when you buy a subscription.
 
 ## Game names
 

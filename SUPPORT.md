@@ -14,8 +14,8 @@ Share your invite link or QR code from your profile. When someone accepts it, yo
 **How do I report or block someone?**
 Every profile and session has a Report option. You can block anyone from their profile or from Settings > Blocked. Blocked people can't send you invites or see your sessions. The [Terms of Use](TERMS.md) explain how reports are handled.
 
-**How do I restore the Supporter Pack?**
-Open Settings and tap Restore purchases while signed in to the Apple Account that bought it. Refunds are handled by Apple through [reportaproblem.apple.com](https://reportaproblem.apple.com).
+**How do I restore my purchases?**
+Open Settings in GameTime and tap Restore purchases while signed in to the Apple Account that bought them. This brings back only what that Apple Account paid for, on a new or reset iPhone. If you have an active GameTime Pro subscription, you get Pro back. If you bought the Supporter Pack, you get the heart badge back. Restoring one doesn't unlock the other. To cancel Pro, go to Settings > [your name] > Subscriptions on your iPhone. Refunds are handled by Apple through [reportaproblem.apple.com](https://reportaproblem.apple.com).
 
 **Where is my data kept?**
 In your own iCloud, under your Apple Account. I can't read it. The [Privacy Policy](PRIVACY.md) explains what's stored and who can see it.
