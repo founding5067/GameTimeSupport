@@ -15,7 +15,7 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | Key | What it holds | Entries |
 | --- | --- | --- |
 | `version` | Data version number | n/a |
-| `games` | Games people can pick from | 109 |
+| `games` | Games people can pick from | 110 |
 | `username.prefixes` | First word of a display name | 20 |
 | `username.suffixes` | Second word of a display name | 22 |
 | `username.blockedNumbers` | Digit strings banned from names | 7 |
