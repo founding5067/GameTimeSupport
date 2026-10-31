@@ -41,9 +41,9 @@ Anyone with your invite link can become your friend and see your profile and ses
 
 ## Purchases
 
-In-app purchases are coming in a later version of GameTime, starting with GameTime Pro. When they arrive, they're sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. Refunds are handled by Apple.
+GameTime Pro and the Supporter Pack are coming in a later version of GameTime. When they arrive, they're sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. Refunds are handled by Apple.
 
-The Supporter Pack is a one-time thank-you that adds a heart badge to your profile. It doesn't include Pro features.
+The Supporter Pack will be a one-time thank-you that adds a heart badge to your profile. It won't include Pro features.
 
 ## Game names
 
