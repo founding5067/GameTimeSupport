@@ -58,7 +58,7 @@ Calendar events, reminders, Live Activities and the widget are made on your devi
 
 ## Purchases
 
-In-app purchases are coming in a later version of GameTime, starting with GameTime Pro. When they arrive, Apple handles them. I never see your payment details.
+GameTime Pro and the Supporter Pack are coming in a later version of GameTime. When they arrive, Apple handles them. I never see your payment details.
 
 ## Delete my data
 
