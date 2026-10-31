@@ -1,6 +1,6 @@
 # GameTime Terms of Use
 
-Last updated: October 26, 2026
+Last updated: October 31, 2026
 
 These are the rules for using GameTime. By using the app you agree to them. They sit alongside the [Privacy Policy](PRIVACY.md). They cover the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
@@ -41,7 +41,9 @@ Anyone with your invite link can become your friend and see your profile and ses
 
 ## Purchases
 
-GameTime Pro and the Supporter Pack are sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. The Supporter Pack is a one-time thank-you that adds a heart badge to your profile. It doesn't include Pro features. Refunds are handled by Apple.
+In-app purchases are coming in a later version of GameTime, starting with GameTime Pro. When they arrive, they're sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. Refunds are handled by Apple.
+
+The Supporter Pack is a one-time thank-you that adds a heart badge to your profile. It doesn't include Pro features.
 
 ## Game names
 
