@@ -16,7 +16,7 @@ GameTime lets you post when you're playing a game and see when your friends are.
 
 GameTime uses CloudKit, Apple's iCloud storage for apps. Everything below is saved in your private iCloud database, under your Apple Account. I (the developer) have no access to it.
 
-- Your profile: display name, emoji, color, and any ring or effect you picked.
+- Your profile: display name, emoji, color, and any ring or effect you picked. If you turn on Free tonight, it also holds that status, its optional note, and when it ends.
 - Sessions you host, who is on each one, and your copies of past sessions.
 - Your all-time Hosted and Joined totals.
 - Settings that follow your account: Hide my stats, My games, new session defaults, the clock, and your notification switches.
@@ -26,11 +26,13 @@ GameTime uses CloudKit, Apple's iCloud storage for apps. Everything below is sav
 
 When you accept someone's invite link, or they accept yours, you each share a read-only copy of your sessions and profile with the other, and a place where friends can add themselves to a session. Friends can see:
 
-- Your profile and your sessions.
-- Who is on each session.
+- Your profile and your sessions, including your Free tonight status and note while it is on.
+- Who is on each session, and any game votes on a poll.
 - Your Hosted and Joined totals, unless you turn on Hide my stats.
 
 People who aren't your friends can't see your sessions or profile. Anyone with your invite link can become your friend, so share it carefully. You can remove or block a friend from their profile at any time, and that ends their access.
+
+Friends can also leave a reaction, a quick reply or a vote on a session. Unlike the rest of the list above, these are saved in the iCloud of the person who hosts the session, not in yours. The host and the friends the host shares that session with can see them, along with who left them.
 
 When a friend's session changes, the app leaves a short notice (a title, a message and the session's ID) in the other person's iCloud so their device can show a notification. These notices are deleted after 24 hours.
 
@@ -62,11 +64,12 @@ GameTime Pro and the Supporter Pack are coming in a later version of GameTime. W
 
 ## Delete my data
 
-Settings > Delete my data erases your profile, sessions, friends and history from iCloud, and the settings and calendar events saved on your device. Upcoming sessions you host are cancelled, and your friends are told. Then the app starts you fresh with a new random profile. Your purchases aren't affected.
+Settings > Delete my data erases your profile, sessions, friends and history from iCloud, along with the reactions and quick replies you left on friends' sessions, and the settings and calendar events saved on your device. Upcoming sessions you host are cancelled, and your friends are told. Then the app starts you fresh with a new random profile. Your purchases aren't affected.
 
 It can't remove:
 
 - Your name on past sessions that friends kept their own copies of.
+- Your votes on sessions you didn't host, once those sessions are over.
 - Reports you sent or that were sent about you (email me to have one removed).
 
 Deleting the app doesn't delete your iCloud data. Use Delete my data first.
