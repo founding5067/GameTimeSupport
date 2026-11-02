@@ -8,7 +8,7 @@
 
 The public support repo for the GameTime app. There is no code here. It holds:
 
-- `gametime.json`, the data file the app downloads about once a week for its game list, username words and avatar emoji. The app reads it from `raw.githubusercontent.com/founding5067/GameTimeSupport/main/gametime.json`, so only what's on `main` reaches users.
+- `gametime.json`, the data file the app downloads about once a week for its game list, username words, avatar emoji, reactions and quick replies. The app reads it from `raw.githubusercontent.com/founding5067/GameTimeSupport/main/gametime.json`, so only what's on `main` reaches users.
 - `PRIVACY.md` and `TERMS.md`, the Privacy Policy and Terms of Use, linked from the app's Settings. The app links to the `main` branch.
 - `README.md`, the field reference for `gametime.json`.
 - `.github/`, with `CODEOWNERS` and the issue forms for requesting new games, emoji and username words.
@@ -24,6 +24,7 @@ The rules are in `README.md` under "Editing the data". The short version:
 - Keep entries family-friendly.
 - Bump `version` whenever the data changes.
 - Check it still parses: `python3 -m json.tool gametime.json > /dev/null`
+- `reactions` entries are `{ emoji, name }` with exactly one emoji, at most 8. `quickReplies` entries are `{ id, text, retired? }`: ids are letters, digits, `-` and `_` (at most 32), text is at most 30 characters. Never rename or reuse an id or emoji (records and settings store them); retire a reply with `"retired": true` instead of deleting it. Keep at least 10 replies not retired.
 - Update the entry counts in the `README.md` table when they change.
 
 ## Policy documents
