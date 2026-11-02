@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 9,
   "games": [
     "7 Days to Die",
     "AION 2",
@@ -347,5 +347,34 @@
       "🐢",
       "🐺"
     ]
-  }
+  },
+  "reactions": [
+    { "emoji": "🔥", "name": "Fire" },
+    { "emoji": "👀", "name": "Eyes" },
+    { "emoji": "👍", "name": "Thumbs up" },
+    { "emoji": "😂", "name": "Laughing" },
+    { "emoji": "💀", "name": "Skull" }
+  ],
+  "quickReplies": [
+    { "id": "onMyWay", "text": "On my way" },
+    { "id": "fiveMinutes", "text": "5 minutes" },
+    { "id": "runningTenLate", "text": "Running 10 late" },
+    { "id": "runningThirtyLate", "text": "Running 30 late" },
+    { "id": "startingSoon", "text": "Starting soon?" },
+    { "id": "inTheLobby", "text": "In the lobby" },
+    { "id": "hopInVoice", "text": "Hop in voice" },
+    { "id": "needOneMore", "text": "Need one more" },
+    { "id": "whoElseIsIn", "text": "Who else is in?" },
+    { "id": "countMeIn", "text": "Count me in" },
+    { "id": "saveMeASpot", "text": "Save me a spot" },
+    { "id": "maybeLater", "text": "Maybe later" },
+    { "id": "cantMakeIt", "text": "Can't make it" },
+    { "id": "beRightBack", "text": "BRB" },
+    { "id": "oneMoreGame", "text": "One more game?" },
+    { "id": "lastGameForMe", "text": "Last game for me" },
+    { "id": "letsGo", "text": "Let's go!" },
+    { "id": "wellPlayed", "text": "Well played" },
+    { "id": "rematch", "text": "Rematch?" },
+    { "id": "goodGame", "text": "GG" }
+  ]
 }

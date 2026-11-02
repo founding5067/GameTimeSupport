@@ -1,6 +1,6 @@
 # GameTimeSupport
 
-The data file the GameTime app fetches for its game list, username words and avatar emoji. There is no code in this repo, only `gametime.json`.
+The data file the GameTime app fetches for its game list, username words, avatar emoji, and the reactions and quick replies friends can leave on a session. There is no code in this repo, only `gametime.json`.
 
 Raw file:
 
@@ -21,6 +21,8 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | `username.blockedNumbers` | Digit strings banned from names | 7 |
 | `username.suffixEmoji` | Suffix to emoji for the Shuffle button | 32 |
 | `avatar.emoji` | Profile picture options | 78 |
+| `reactions` | Emoji reactions on a session | 5 |
+| `quickReplies` | Canned replies on a session | 20 |
 
 ## Field reference
 
@@ -58,18 +60,36 @@ The profile picture options. The order in the file is the order in the grid.
 
 Each entry must be exactly one emoji. Letters, digits and two emoji in one entry are dropped.
 
+### `reactions`
+
+The emoji friends can react to a session with, in the order the bar shows them. Each entry is `{ "emoji": "🔥", "name": "Fire" }`. `name` is what VoiceOver reads and may be left out. At most 8 are kept.
+
+The emoji is what gets saved with each reaction, so it is the entry's ID. Each entry must be exactly one emoji. Anything else is dropped.
+
+### `quickReplies`
+
+The canned replies friends can leave on a session, and that people pick from in Settings > Quick replies. Nobody can type their own, so only what's in this list can ever show up. Each entry is `{ "id": "onMyWay", "text": "On my way" }`, in the order the picker shows them.
+
+- `id` is what gets saved with every reply and in people's settings. Letters, digits, dashes and underscores, at most 32 characters.
+- `text` is what people read, at most 30 characters.
+- `"retired": true` takes a reply out of the picker, but it still shows on the sessions it was already left on. Use it instead of deleting an entry.
+
+An ID the app has never heard of is never shown, even if someone writes one into a session. A friend whose copy of this file is a few days old won't see a newly added reply until their app downloads it, which happens about once a week.
+
 ## Editing the data
 
 - Keep `games`, `prefixes` and `suffixes` alphabetical with no duplicates.
 - Leave `avatar.emoji` in display order. Don't sort it.
 - When you add a suffix, add its `suffixEmoji` entry, and make sure that emoji is in `avatar.emoji`.
+- Never change what an `id` or reaction emoji means, and never reuse one. Fix a typo in `text`, but to drop a reply mark it `"retired": true` rather than deleting it.
+- Keep at least 10 `quickReplies` that aren't retired, since Pro lets people pick that many.
 - Keep entries family-friendly, since users see them.
 - Bump `version`.
 - Check the file still parses: `python3 -m json.tool gametime.json > /dev/null`
 
 ## Requesting changes
 
-Open an [issue](../../issues/new/choose) and pick a form to request a new game, avatar emoji, username prefix or suffix, or any other change to the data.
+Open an [issue](../../issues/new/choose) and pick a form to request a new game, avatar emoji, username prefix or suffix, quick reply or reaction (use "other"), or any other change to the data.
 
 `.github/CODEOWNERS` makes @founding5067 the owner of every file, so changes need their review.
 
