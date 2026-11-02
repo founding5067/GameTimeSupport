@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "games": [
     "7 Days to Die",
     "AION 2",
@@ -155,6 +155,8 @@
   ],
   "username": {
     "prefixes": [
+      "Atomic",
+      "Blazing",
       "Brave",
       "Bright",
       "Bubbly",
@@ -162,19 +164,29 @@
       "Clever",
       "Cosmic",
       "Cozy",
+      "Crimson",
       "Daring",
+      "Dizzy",
       "Epic",
+      "Frosty",
       "Fuzzy",
+      "Groovy",
       "Happy",
+      "Hyper",
       "Jolly",
       "Lucky",
       "Mighty",
+      "Neon",
+      "Nimble",
       "Noble",
       "Pixel",
+      "Plucky",
       "Quick",
+      "Sneaky",
       "Sunny",
       "Swift",
-      "Turbo"
+      "Turbo",
+      "Zesty"
     ],
     "suffixes": [
       "Badger",
@@ -182,7 +194,9 @@
       "Dragon",
       "Falcon",
       "Fox",
+      "Frog",
       "Gamer",
+      "Ghost",
       "Hero",
       "Jellyfish",
       "Knight",
@@ -191,14 +205,22 @@
       "Mushroom",
       "Ninja",
       "Otter",
+      "Owl",
       "Panda",
       "Penguin",
       "Pilot",
+      "Raccoon",
       "Ranger",
+      "Robot",
       "Rocket",
+      "Shark",
+      "Sloth",
       "Star",
       "Tiger",
-      "Wizard"
+      "Turtle",
+      "Unicorn",
+      "Wizard",
+      "Wolf"
     ],
     "blockedNumbers": [
       "69",
@@ -215,7 +237,9 @@
       "Dragon": "🐲",
       "Falcon": "🦅",
       "Fox": "🦊",
+      "Frog": "🐸",
       "Gamer": "🎮",
+      "Ghost": "👻",
       "Hero": "🦸",
       "Jellyfish": "🪼",
       "Knight": "🛡️",
@@ -224,14 +248,22 @@
       "Mushroom": "🍄",
       "Ninja": "🥷",
       "Otter": "🦦",
+      "Owl": "🦉",
       "Panda": "🐼",
       "Penguin": "🐧",
       "Pilot": "✈️",
+      "Raccoon": "🦝",
       "Ranger": "🏹",
+      "Robot": "🤖",
       "Rocket": "🚀",
+      "Shark": "🦈",
+      "Sloth": "🦥",
       "Star": "⭐️",
       "Tiger": "🐯",
-      "Wizard": "🧙"
+      "Turtle": "🐢",
+      "Unicorn": "🦄",
+      "Wizard": "🧙",
+      "Wolf": "🐺"
     }
   },
   "avatar": {
@@ -307,7 +339,13 @@
       "🏹",
       "✈️",
       "☄️",
-      "🪼"
+      "🪼",
+      "🦉",
+      "🦝",
+      "🦈",
+      "🦥",
+      "🐢",
+      "🐺"
     ]
   }
 }
