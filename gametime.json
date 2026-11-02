@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "games": [
     "7 Days to Die",
     "AION 2",
@@ -376,5 +376,11 @@
     { "id": "wellPlayed", "text": "Well played" },
     { "id": "rematch", "text": "Rematch?" },
     { "id": "goodGame", "text": "GG" }
+  ],
+  "freeNotes": [
+    { "id": "downForAnything", "text": "Down for anything" },
+    { "id": "aFewRounds", "text": "Up for a few rounds" },
+    { "id": "lookingForGroup", "text": "Looking for a group" },
+    { "id": "justChilling", "text": "Just chilling" }
   ]
 }

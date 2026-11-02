@@ -50,7 +50,7 @@ I use reports only to review and act on what was reported. Delete my data does n
 
 ## The game list (GitHub)
 
-The games, name words, avatar emoji, reactions and quick replies you pick from come from a file in this repository, `gametime.json`. About once a week the app downloads it from `raw.githubusercontent.com`. The request carries nothing about you or your account, but like any web request it reveals your IP address to GitHub. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for how GitHub handles that. I don't see those requests.
+The games, name words, avatar emoji, reactions, quick replies and "Free tonight" notes you pick from come from a file in this repository, `gametime.json`. About once a week the app downloads it from `raw.githubusercontent.com`. The request carries nothing about you or your account, but like any web request it reveals your IP address to GitHub. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for how GitHub handles that. I don't see those requests.
 
 ## What stays on your device
 
