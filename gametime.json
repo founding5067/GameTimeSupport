@@ -138,6 +138,8 @@
     { "id": "grinding", "name": "Grinding" },
     { "id": "coop", "name": "Co-op" },
     { "id": "campaign", "name": "Campaign" },
+    { "id": "survival", "name": "Survival" },
+    { "id": "achievementHunting", "name": "Achievement hunting" },
     { "id": "pvp", "name": "PvP" },
     { "id": "lateNight", "name": "Late night" }
   ],
