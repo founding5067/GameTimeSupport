@@ -23,6 +23,7 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | `avatar.emoji` | Profile picture options | 78 |
 | `reactions` | Emoji reactions on a session | 5 |
 | `quickReplies` | Canned replies on a session | 20 |
+| `freeNotes` | Notes that can go with "Free tonight" | 4 |
 
 ## Field reference
 
@@ -76,6 +77,10 @@ The canned replies friends can leave on a session, and that people pick from in 
 
 An ID the app has never heard of is never shown, even if someone writes one into a session. A friend whose copy of this file is a few days old won't see a newly added reply until their app downloads it, which happens about once a week.
 
+### `freeNotes`
+
+The notes someone can add when they tell friends they're free tonight, such as "Down for anything". Nobody can type their own. It follows the same rules as `quickReplies`: each entry is `{ "id": "downForAnything", "text": "Down for anything" }`, `id` is saved on the person's profile and never changes meaning, `text` is at most 30 characters, and `"retired": true` takes a note out of the menu while friends who already set it still read. At most 20 are kept.
+
 ## Editing the data
 
 - Keep `games`, `prefixes` and `suffixes` alphabetical with no duplicates.
@@ -83,6 +88,7 @@ An ID the app has never heard of is never shown, even if someone writes one into
 - When you add a suffix, add its `suffixEmoji` entry, and make sure that emoji is in `avatar.emoji`.
 - Never change what an `id` or reaction emoji means, and never reuse one. Fix a typo in `text`, but to drop a reply mark it `"retired": true` rather than deleting it.
 - Keep at least 10 `quickReplies` that aren't retired, since Pro lets people pick that many.
+- `freeNotes` follow the same ID rules as `quickReplies`. Keep at least one that isn't retired.
 - Keep entries family-friendly, since users see them.
 - Bump `version`.
 - Check the file still parses: `python3 -m json.tool gametime.json > /dev/null`
