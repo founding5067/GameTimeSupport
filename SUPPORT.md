@@ -17,6 +17,9 @@ Every profile and session has a Report option. You can block anyone from their p
 **How do I restore the Supporter Pack?**
 Open Settings and tap Restore purchases while signed in to the Apple Account that bought it. Refunds are handled by Apple through [reportaproblem.apple.com](https://reportaproblem.apple.com).
 
+**How do I share a recap of a game?**
+When a session you hosted or joined ends, open it and tap Share recap, or go to Profile > Past sessions and tap one. The card shows the game, how long you played and who was there. Turn on Hide my stats in Settings to leave your totals off it. Once you send a card, it's out of my hands, so share it with people you trust.
+
 **Where is my data kept?**
 In your own iCloud, under your Apple Account. I can't read it. The [Privacy Policy](PRIVACY.md) explains what's stored and who can see it.
 

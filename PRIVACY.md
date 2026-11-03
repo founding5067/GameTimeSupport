@@ -52,6 +52,12 @@ I use reports only to review and act on what was reported. Delete my data does n
 
 The games, name words, avatar emoji, reactions, quick replies and "Free tonight" notes you pick from come from a file in this repository, `gametime.json`. About once a week the app downloads it from `raw.githubusercontent.com`. The request carries nothing about you or your account, but like any web request it reveals your IP address to GitHub. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for how GitHub handles that. I don't see those requests.
 
+## Recap cards
+
+When a session you were on ends, you can share a recap card: a picture made on your device. It shows the game, the date and length, the names of the people who were on it, and, unless you turn on Hide my stats, how many times you've played that game and your Hosted and Joined totals. It uses each person's display name, never your nicknames for them.
+
+The picture goes where you send it, using the iOS share sheet. I don't receive it, and once it's sent I can't take it back or control who sees it. Share it only with people you're comfortable showing those names to.
+
 ## What stays on your device
 
 Calendar events, reminders, Live Activities and the widget are made on your device from your sessions. They aren't sent anywhere else. Calendar and notification access are optional, and you can turn them off in Settings or in your device's settings.
