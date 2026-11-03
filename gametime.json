@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "games": [
     "7 Days to Die",
     "AION 2",
@@ -381,6 +381,8 @@
     { "id": "downForAnything", "text": "Down for anything" },
     { "id": "aFewRounds", "text": "Up for a few rounds" },
     { "id": "lookingForGroup", "text": "Looking for a group" },
-    { "id": "justChilling", "text": "Just chilling" }
+    { "id": "justChilling", "text": "Just chilling" },
+    { "id": "coopOrPve", "text": "Up for co-op or PvE" },
+    { "id": "competitive", "text": "Down for something competitive" }
   ]
 }

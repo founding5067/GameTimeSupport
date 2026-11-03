@@ -23,7 +23,7 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | `avatar.emoji` | Profile picture options | 78 |
 | `reactions` | Emoji reactions on a session | 5 |
 | `quickReplies` | Canned replies on a session | 20 |
-| `freeNotes` | Notes that can go with "Free tonight" | 4 |
+| `freeNotes` | Notes that can go with "Free tonight" | 6 |
 
 ## Field reference
 
