@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "games": [
     "7 Days to Die",
     "AION 2",
@@ -185,6 +185,7 @@
       "Sneaky",
       "Sunny",
       "Swift",
+      "Toxic",
       "Turbo",
       "Zesty"
     ],
@@ -211,6 +212,7 @@
       "Pilot",
       "Raccoon",
       "Ranger",
+      "Rat",
       "Robot",
       "Rocket",
       "Shark",
@@ -254,6 +256,7 @@
       "Pilot": "✈️",
       "Raccoon": "🦝",
       "Ranger": "🏹",
+      "Rat": "🐀",
       "Robot": "🤖",
       "Rocket": "🚀",
       "Shark": "🦈",
@@ -345,7 +348,8 @@
       "🦈",
       "🦥",
       "🐢",
-      "🐺"
+      "🐺",
+      "🐀"
     ]
   },
   "reactions": [

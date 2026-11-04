@@ -16,11 +16,11 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | --- | --- | --- |
 | `version` | Data version number | n/a |
 | `games` | Games people can pick from | 127 |
-| `username.prefixes` | First word of a display name | 32 |
-| `username.suffixes` | Second word of a display name | 32 |
+| `username.prefixes` | First word of a display name | 33 |
+| `username.suffixes` | Second word of a display name | 33 |
 | `username.blockedNumbers` | Digit strings banned from names | 7 |
-| `username.suffixEmoji` | Suffix to emoji for the Shuffle button | 32 |
-| `avatar.emoji` | Profile picture options | 78 |
+| `username.suffixEmoji` | Suffix to emoji for the Shuffle button | 33 |
+| `avatar.emoji` | Profile picture options | 79 |
 | `reactions` | Emoji reactions on a session | 5 |
 | `quickReplies` | Canned replies on a session | 20 |
 | `freeNotes` | Notes that can go with "Free tonight" | 6 |
