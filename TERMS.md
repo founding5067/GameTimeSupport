@@ -1,6 +1,6 @@
 # GameTime Terms of Use
 
-Last updated: November 2, 2026
+Last updated: November 6, 2026
 
 These are the rules for using GameTime. By using the app you agree to them. They sit alongside the [Privacy Policy](PRIVACY.md). They cover the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
@@ -13,7 +13,7 @@ These are the rules for using GameTime. By using the app you agree to them. They
 
 ## Using GameTime
 
-You must be at least 13 years old to use GameTime. You need an Apple Account signed in to iCloud. You are responsible for what you post: your display name, emoji, nicknames, session titles and notes, and the sessions you create or join. Only share things you're allowed to share. That includes recap cards: they show the names of the people who were on a session, so share them with care.
+You must be at least 18 years old to use GameTime. You need an Apple Account signed in to iCloud. You are responsible for what you post: your display name, emoji, nicknames, session titles and notes, and the sessions you create or join. Only share things you're allowed to share. That includes recap cards: they show the names of the people who were on a session, so share them with care.
 
 ## No objectionable content, no abusive users
 
