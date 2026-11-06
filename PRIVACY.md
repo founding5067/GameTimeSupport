@@ -1,6 +1,6 @@
 # GameTime Privacy Policy
 
-Last updated: November 5, 2026
+Last updated: November 6, 2026
 
 GameTime lets you post when you're playing a game and see when your friends are. This page explains what the app keeps, where it keeps it, and who can see it. It covers the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
@@ -79,9 +79,9 @@ It can't remove:
 
 Deleting the app doesn't delete your iCloud data. Use Delete my data first.
 
-## Children
+## Age
 
-GameTime doesn't ask for your age and isn't built for children under 13.
+GameTime is for adults 18 and older. It doesn't ask for your age. If you believe someone under 18 has sent a report, email me and I'll delete it.
 
 ## Changes
 
