@@ -1,6 +1,6 @@
 # GameTime Privacy Policy
 
-Last updated: November 2, 2026
+Last updated: November 5, 2026
 
 GameTime lets you post when you're playing a game and see when your friends are. This page explains what the app keeps, where it keeps it, and who can see it. It covers the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
@@ -16,21 +16,23 @@ GameTime lets you post when you're playing a game and see when your friends are.
 
 GameTime uses CloudKit, Apple's iCloud storage for apps. Everything below is saved in your private iCloud database, under your Apple Account. I (the developer) have no access to it.
 
-- Your profile: display name, emoji, color, and any ring or effect you picked.
+- Your profile: display name, emoji, color, and any ring or effect you picked. When you say you're free tonight, that and the note you chose are saved on your profile too.
 - Sessions you host, who is on each one, and your copies of past sessions.
 - Your all-time Hosted and Joined totals.
+- Reactions and quick replies you leave on a session. They are picked from a fixed list, so you never type them.
 - Settings that follow your account: Hide my stats, My games, new session defaults, the clock, and your notification switches.
-- Your nicknames for friends, and your muted and blocked lists. These are never shared.
+- Your nicknames for friends, your muted and blocked lists, and your friend groups (each group's name and who is in it). These are never shared.
 
 ## What your friends can see
 
 When you accept someone's invite link, or they accept yours, you each share a read-only copy of your sessions and profile with the other, and a place where friends can add themselves to a session. Friends can see:
 
-- Your profile and your sessions.
+- Your profile, including whether you're free tonight and your note, and your sessions.
+- Reactions and quick replies on a session. They are saved with the session's signups, so the people on that session can see them.
 - Who is on each session.
 - Your Hosted and Joined totals, unless you turn on Hide my stats.
 
-People who aren't your friends can't see your sessions or profile. Anyone with your invite link can become your friend, so share it carefully. You can remove or block a friend from their profile at any time, and that ends their access.
+If you post a session to a friend group, only the friends in that group can see it. They can't see the group's name. People who aren't your friends can't see your sessions or profile. Anyone with your invite link can become your friend, so share it carefully. You can remove or block a friend from their profile at any time, and that ends their access.
 
 When a friend's session changes, the app leaves a short notice (a title, a message and the session's ID) in the other person's iCloud so their device can show a notification. These notices are deleted after 24 hours.
 
