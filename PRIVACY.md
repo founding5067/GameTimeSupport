@@ -81,7 +81,7 @@ Deleting the app doesn't delete your iCloud data. Use Delete my data first.
 
 ## Age
 
-GameTime is for adults 18 and older. It doesn't ask for your age. If you believe someone under 18 has sent a report, email me and I'll delete it.
+GameTime is for adults 18 and older. Where the law requires it, the app asks Apple for your age range and won't open for people under 18. Apple shares only the range, never your birthday, and it stays on your device. I never see it. If you believe someone under 18 has sent a report, email me and I'll delete it.
 
 ## Changes
 
