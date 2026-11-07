@@ -22,7 +22,7 @@ The rules are in `README.md` under "Editing the data". The short version:
 - Prefixes and suffixes are letters only, at most 13 characters. Each avatar emoji is exactly one emoji.
 - `username.blockedNumbers` replaces the app's built-in list when present, so include every number to block.
 - Keep entries family-friendly.
-- Bump `version` whenever the data changes.
+- Raise `minimumVersion` only once the build it names is live on the App Store. Bump `version` whenever the data changes.
 - Check it still parses: `python3 -m json.tool gametime.json > /dev/null`
 - `reactions` entries are `{ emoji, name }` with exactly one emoji, at most 8. `quickReplies` entries are `{ id, text, retired? }`: ids are letters, digits, `-` and `_` (at most 32), text is at most 30 characters. Never rename or reuse an id or emoji (records and settings store them); retire a reply with `"retired": true` instead of deleting it. Keep at least 10 replies not retired. `freeNotes` entries use the same `{ id, text, retired? }` shape and rules (at most 20); keep at least one not retired.
 - Update the entry counts in the `README.md` table when they change.

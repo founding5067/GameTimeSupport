@@ -15,6 +15,7 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | Key | What it holds | Entries |
 | --- | --- | --- |
 | `version` | Data version number | n/a |
+| `minimumVersion` | Oldest app version allowed to run | n/a |
 | `games` | Games people can pick from | 129 |
 | `username.prefixes` | First word of a display name | 33 |
 | `username.suffixes` | Second word of a display name | 33 |
@@ -30,6 +31,10 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 ### `version`
 
 A number, bumped whenever the data changes.
+
+### `minimumVersion`
+
+The oldest app version that may keep running, such as `"2.0"`: a dotted number, compared part by part, so `1.10` is newer than `1.9`. A build below it shows "Please update" and nothing else. The app checks it with its weekly download and remembers the last answer, so it holds offline. Only builds from the one that introduced this check onward read it; older builds ignore it. Leave it at `"1.0"` (nobody is blocked) until the new build is live on the App Store, then raise it to that build's version. A value that isn't a version is ignored.
 
 ### `games`
 
@@ -90,6 +95,7 @@ The notes someone can add when they tell friends they're free tonight, such as "
 - Keep at least 10 `quickReplies` that aren't retired, since Pro lets people pick that many.
 - `freeNotes` follow the same ID rules as `quickReplies`. Keep at least one that isn't retired.
 - Keep entries family-friendly, since users see them.
+- Only raise `minimumVersion` once the build it names can be downloaded, or people will be told to update to something that isn't there.
 - Bump `version`.
 - Check the file still parses: `python3 -m json.tool gametime.json > /dev/null`
 

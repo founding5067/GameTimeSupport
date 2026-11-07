@@ -1,5 +1,6 @@
 {
-  "version": 13,
+  "version": 14,
+  "minimumVersion": "1.0",
   "games": [
     "7 Days to Die",
     "AION 2",
