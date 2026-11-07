@@ -15,6 +15,7 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | Key | What it holds | Entries |
 | --- | --- | --- |
 | `version` | Data version number | n/a |
+| `minimumVersion` | Oldest app version allowed to run | n/a |
 | `games` | Games people can pick from | 129 |
 | `username.prefixes` | First word of a display name | 33 |
 | `username.suffixes` | Second word of a display name | 33 |
@@ -30,6 +31,19 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 ### `version`
 
 A number, bumped whenever the data changes.
+
+### `minimumVersion`
+
+A dotted version in quotes, such as `"2.0"`, compared part by part (`1.10` is newer than `1.9`). The app asks for this file **every time it opens or comes to the front** (at most once a minute after a good answer), and what it does depends on the answer:
+
+| The file says | The app shows |
+| --- | --- |
+| no `minimumVersion`, or something that isn't a version | the app, as normal |
+| a version above the installed one (and not `100`) | "Please update", before anything else |
+| exactly `100` (also written `100.0`) | after the age check, a message that GameTime has shut down |
+| nothing readable: the file is gone (404), GitHub is down or rate limiting, the phone is offline, or the file isn't valid JSON | the same shutdown message, until a later check works |
+
+So **a broken `gametime.json` shuts the app down for everyone who opens it**, and so does a GitHub outage or an offline phone. A good answer brings the app back by itself. `raw.githubusercontent.com` caches for a few minutes, so a change can take that long to arrive. Only builds from the one that introduced this check read it; older builds ignore it. Leave it at `"1.0"` (nobody is blocked) until the build you want to require can be downloaded, and put `100` in only when you mean to shut the app down.
 
 ### `games`
 
@@ -90,6 +104,8 @@ The notes someone can add when they tell friends they're free tonight, such as "
 - Keep at least 10 `quickReplies` that aren't retired, since Pro lets people pick that many.
 - `freeNotes` follow the same ID rules as `quickReplies`. Keep at least one that isn't retired.
 - Keep entries family-friendly, since users see them.
+- Only raise `minimumVersion` once the build it names can be downloaded, or people will be told to update to something that isn't there. `100` shuts the app down.
+- Check the file parses before every push (`python3 -m json.tool gametime.json > /dev/null`): a file the app can't read shuts it down.
 - Bump `version`.
 - Check the file still parses: `python3 -m json.tool gametime.json > /dev/null`
 
