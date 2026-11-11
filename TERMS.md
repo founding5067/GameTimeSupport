@@ -1,8 +1,8 @@
 # GameTime Terms of Use
 
-Last updated: November 6, 2026
+Last updated: November 11, 2026
 
-These are the rules for using GameTime. By using the app you agree to them. They sit alongside the [Privacy Policy](PRIVACY.md). They cover the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
+These are the rules for using GameTime. By using the app you agree to them. They sit alongside the [Privacy Policy](PRIVACY.md) and Apple's [standard Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). They cover the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
 ## The short version
 
@@ -27,11 +27,13 @@ Don't use GameTime to post or send anything that is:
 
 Don't create sessions or send invites to harass or target someone. Don't try to get around a block by making a new profile to reach the same person.
 
+To keep things clean, nobody can type what friends see. Display names, games, reactions, quick replies and "Free tonight" notes are all picked from lists I control, and I keep those lists family-friendly.
+
 ## Reporting and blocking
 
 Every profile and session has a Report option. Pick a reason, add a note if you like, and send it. The person you report isn't told it was you. You can also block anyone from their profile or from Settings > Blocked. Blocked people can't send you invites or see your sessions.
 
-I review reports within 24 hours. What you post is saved in your own iCloud, so I can't edit or delete other people's content. Blocking is what ends contact.
+I review reports within 24 hours. What you post is saved in your own iCloud, so I can't edit or delete other people's content or remove anyone from the app. If a report shows something on the lists is being misused, I take it off the lists. Blocking is what ends contact.
 
 GameTime doesn't let you interact with people who aren't your friends. They can't see your sessions or profile, and they can't add you to anything. So the best way to deal with poor behavior is to stop being friends: remove them from their profile, or block them so they can't come back through your invite link.
 
@@ -41,7 +43,7 @@ Anyone with your invite link can become your friend and see your profile and ses
 
 ## Purchases
 
-GameTime Pro and the Supporter Pack are coming in a later version of GameTime. When they arrive, they're sold through Apple, and Apple's standard Licensed Application End User License Agreement applies to them. Refunds are handled by Apple.
+GameTime Pro and the Supporter Pack are coming in a later version of GameTime. When they arrive, they're sold through Apple, and Apple's license agreement applies to them too. Refunds are handled by Apple.
 
 The Supporter Pack will be a one-time thank-you that adds a heart badge to your profile. It won't include Pro features.
 
@@ -51,7 +53,7 @@ GameTime isn't affiliated with, endorsed by, or sponsored by any game, publisher
 
 ## No warranty
 
-GameTime is provided as is. I do my best, but sessions, invites and notifications depend on iCloud and your device, and they may be late or not arrive. I'm not responsible for missed games, lost data, or what other people post. To the extent the law allows, my liability is limited to the amount you paid for the app.
+GameTime is provided as is. I do my best, but sessions, invites and notifications depend on iCloud and your device, and they may be late or not arrive. I'm not responsible for missed games, lost data, or what other people post. To the extent the law allows, my liability is limited to the amount you paid for the app. Nothing in these terms takes away rights you have under the law that can't be excluded, such as consumer rights where you live.
 
 ## Ending your use
 

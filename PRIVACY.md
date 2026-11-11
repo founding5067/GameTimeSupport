@@ -1,6 +1,6 @@
 # GameTime Privacy Policy
 
-Last updated: November 6, 2026
+Last updated: November 11, 2026
 
 GameTime lets you post when you're playing a game and see when your friends are. This page explains what the app keeps, where it keeps it, and who can see it. It covers the iPhone app listed on the App Store as "GameTime: Game Session Planner" (called GameTime below).
 
@@ -10,6 +10,7 @@ GameTime lets you post when you're playing a game and see when your friends are.
 - Your data lives in your own iCloud. I can't read it.
 - Only friends you invite can see your sessions.
 - The one thing I can read is a report you send about someone.
+- I don't sell or share your personal information.
 - You can erase everything from Settings > Delete my data.
 
 ## What is stored in your iCloud
@@ -48,7 +49,9 @@ If you report a profile or session, the report is saved to a public CloudKit dat
 - For a session report: the session's ID and game title.
 - The app version.
 
-I use reports only to review and act on what was reported. Delete my data does not remove reports. To have a report removed, email me at the address below.
+I use reports only to keep GameTime safe, which is my reason for keeping them. I can't remove anyone's content or account, because it lives in their own iCloud. What I can do is change the lists that names, games, reactions, quick replies and notes are picked from, so if something on them is being misused, I remove it.
+
+I delete a report once I've dealt with it, and no later than 12 months after it was sent. Delete my data does not remove reports. To have a report removed sooner, email me at the address below.
 
 ## The game list (GitHub)
 
@@ -78,6 +81,16 @@ It can't remove:
 - Reports you sent or that were sent about you (email me to have one removed).
 
 Deleting the app doesn't delete your iCloud data. Use Delete my data first.
+
+## Where your data is stored
+
+Your iCloud data is stored by Apple, and the game list by GitHub. Both may keep it on servers outside your country. See [Apple's privacy policy](https://www.apple.com/legal/privacy/) for how Apple protects iCloud data.
+
+## Your rights
+
+Depending on where you live, you may have the right to see the personal data I hold about you, correct it, have it deleted, or object to how I use it. The only personal data I hold is in reports, so email me and I'll tell you whether there's a report you sent or one about you, and delete it if you ask. I won't tell anyone who reported them. Everything else is in your own iCloud, where Delete my data erases it.
+
+If you're in the EU or UK and unhappy with how I've handled your data, you can complain to your local data protection authority.
 
 ## Age
 
