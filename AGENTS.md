@@ -4,6 +4,8 @@
 
 **Never commit or push without the user's explicit approval.** Approval for one commit or push doesn't carry over to the next.
 
+Don't add a `Co-Authored-By` line to commit messages, and don't add a "Generated with Claude Code" line (or any other AI attribution) to commits, pull requests or comments.
+
 ## What this is
 
 The public support repo for the GameTime app. There is no code here. It holds:

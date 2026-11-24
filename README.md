@@ -17,7 +17,7 @@ The GameTime privacy policy is in [PRIVACY.md](PRIVACY.md), the terms are in [TE
 | `version` | Data version number | n/a |
 | `isAppActive` | Whether the app runs at all | n/a |
 | `minimumVersion` | Oldest app version allowed to run | n/a |
-| `games` | Games people can pick from | 129 |
+| `games` | Games people can pick from | 221 |
 | `username.prefixes` | First word of a display name | 33 |
 | `username.suffixes` | Second word of a display name | 33 |
 | `username.blockedNumbers` | Digit strings banned from names | 7 |
